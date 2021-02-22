@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta charset="UTF-8">
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1"/>
     <title>Evgeny Padniuk | Links</title>
-    <link rel="stylesheet" type="text/css" href="base.css">
-    <link href="//fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="ico/apple-icon-60x60.png">
@@ -22,62 +19,114 @@
     <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
-    <link rel="manifest" href="ico/manifest.json">
+<!--    <link rel="manifest" href="ico/manifest.json">-->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/page.css" rel="stylesheet"/>
+
     <script src="https://use.fontawesome.com/d05f523596.js"></script>
 </head>
-
-<body>
-    <article>
-        <div class="wrapper">
-            <header>
-                <img class="prof-pic" src="./media/me.png" alt="Photo of Evgeny Padniuk"/>
-                <p class="user-name">
+<body class="theme-default default-theme">
+    <div class="container smartpage-container">
+        <header>
+            <img src="media/me.png" class="avatar" alt="" title="title"/>
+            <div class="bio-title">
+                <h4 align="center">
                     <a href="https://www.instagram.com/evgeny.padniuk/" target="_blank">@evgeny.padniuk</a>
-                </p>
-            </header>
-
-            <main>
-                <div class="links">
-                    <a href="https://blog.padniuk.com" class="link">Blog</a>
+                </h4>
+                <div class="bio-description">
+                    <hr>
+                        <p>
+                            🍰 Pastry Chef
+                            <br>
+                            🍫 Chocolate destroyer
+                        </p>
+                    <hr>
                 </div>
-            </main>
+            </div>
+        </header>
 
-            <footer class="social-footer">
-                <div class="footer-social-icons">
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://www.linkedin.com/in/evgeny-padniuk-05536846/" class="social-icon"
-                            title="Linkedin">
-                                &nbsp<i class="fa fa-linkedin fa-lg"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://t.me/ypadniuk" class="social-icon" title="Telegram">
-                                &nbsp<i class="fa fa-telegram fa-lg"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://vas3k.club/user/evgenypadniuk/" class="social-icon" target="_blank" title="Vas3k Club">
-                                &nbsp<i class="fa fa-globe fa-lg"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/muspelheim/" class="social-icon" title="Github">
-                                &nbsp<i class="fa fa-github fa-lg"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
-    </article>
+        <ul class="messengers blocks-num-2">
+            <li class="links-block">
+                <a href="https://www.linkedin.com/in/evgeny-padniuk-05536846/" class="block-item layout-button">
+                    <div class="block-content">
+                        &nbsp<i class="fa fa-linkedin fa-lg"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="links-block">
+                <a href="https://t.me/ypadniuk"  class="block-item layout-button">
+                    <div class="block-content">
+                        &nbsp<i class="fa fa-telegram fa-lg"></i>
+                    </div>
+                </a>
+            </li>
 
-    <video autoplay loop id="video-background" muted plays-inline>
-        <source src="./media/bg.mp4" type="video/mp4">
-    </video>
+       </ul>
+
+
+
+            <ul class="rich-links">
+                <li class="links-block">
+                    <div class="block-item layout-text">
+                        <h2 class="block-title">Ссылки на русском</h2>
+<!--                        <div class="block-text">-->
+<!--                            <p>-->
+<!--                                Для русскоязычных пользователей-->
+<!--                            </p>-->
+<!--                        </div>-->
+                    </div>
+                </li>
+
+                <li class="links-block">
+                    <a href="https://blog.padniuk.com" title="Блог" class="block-item layout-button">
+                        <div class="block-content">
+                            <span>Блог</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+
+        <section>
+            <ul class="social-links blocks-num-2">
+                <li class="links-block">
+                    <div class="block-item layout-text">
+                        <h2 class="block-title">Социальные сети</h2>
+                    </div>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://github.com/muspelheim" title="GitHub">
+                        &nbsp<i class="fa fa-github fa-lg"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/evgeny-padniuk-05536846/" title="Linkedin">
+                        &nbsp<i class="fa fa-linkedin fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="./media/bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=263071400"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '263071400');
+    </script>
 </body>
 </html>
